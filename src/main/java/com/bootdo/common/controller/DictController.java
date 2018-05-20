@@ -17,10 +17,10 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * 字典表
- * @author chglee
- * @email 1992lcg@163.com
- * @date 2017-09-29 18:28:07
+ * @描述: 字典表控制层
+ * @作者: 宋利军 
+ * @Date: 2018年5月20日下午11:43:08 
+ * @Copyright: 2018 http://blog.aizhuoyue.net.
  */
 
 @Controller
