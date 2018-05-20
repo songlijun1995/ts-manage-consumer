@@ -7112,3 +7112,528 @@ Using default security password: 00dadb60-8e41-4214-a587-ac13dc778981
 2018-05-21 01:59:21 -==> Parameters: 
 2018-05-21 01:59:21 -<==      Total: 1
 2018-05-21 01:59:21 -Started BootdoApplication in 29.233 seconds (JVM running for 32.367)
+2018-05-21 02:03:47 -Application shutdown requested.
+2018-05-21 02:03:47 -Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@31fa1761: startup date [Mon May 21 01:58:53 CST 2018]; root of context hierarchy
+2018-05-21 02:03:47 -Stopping beans in phase 2147483647
+2018-05-21 02:03:47 -Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2018-05-21 02:03:47 -Stopping beans in phase 0
+2018-05-21 02:03:47 -Unregistering JMX-exposed beans on shutdown
+2018-05-21 02:03:47 -Unregistering JMX-exposed beans
+2018-05-21 02:03:47 -Unregistering JMX-exposed beans on shutdown
+2018-05-21 02:03:47 -Unregistering JMX-exposed beans
+2018-05-21 02:03:47 -Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
+2018-05-21 02:03:47 -Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2018-05-21 02:03:47 -Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
+2018-05-21 02:03:47 -Shutting down Quartz Scheduler
+2018-05-21 02:03:47 -{dataSource-1} closed
+2018-05-21 02:03:53 -Starting BootdoApplication on Z258H7FRH70R1WT with PID 10036 (D:\Opensoure\eclipse\code\ts-manage\ts-manage-consumer\target\classes started by Administrator in D:\Opensoure\eclipse\code\ts-manage\ts-manage-consumer)
+2018-05-21 02:03:53 -Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2018-05-21 02:03:53 -The following profiles are active: dev
+2018-05-21 02:03:53 -HV000001: Hibernate Validator 5.3.6.Final
+2018-05-21 02:03:53 -Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@31fa1761: startup date [Mon May 21 02:03:53 CST 2018]; root of context hierarchy
+2018-05-21 02:03:56 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-05-21 02:03:57 -Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$6853f52f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 02:03:57 -Bean 'org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration' of type [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration$$EnhancerBySpringCGLIB$$5cc7b9d3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 02:03:57 -Bean 'spring.cache-org.springframework.boot.autoconfigure.cache.CacheProperties' of type [org.springframework.boot.autoconfigure.cache.CacheProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 02:03:58 -Bean 'cacheManagerCustomizers' of type [org.springframework.boot.autoconfigure.cache.CacheManagerCustomizers] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 02:03:58 -Bean 'org.springframework.boot.autoconfigure.cache.EhCacheCacheConfiguration' of type [org.springframework.boot.autoconfigure.cache.EhCacheCacheConfiguration$$EnhancerBySpringCGLIB$$f76686d1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 02:03:58 -Bean 'ehCacheCacheManager' of type [net.sf.ehcache.CacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 02:03:58 -Bean 'cacheManager' of type [org.springframework.cache.ehcache.EhCacheCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 02:03:58 -Bean 'cacheAutoConfigurationValidator' of type [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration$CacheManagerValidator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 02:03:58 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1f41bf11] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 02:03:58 -Bean 'shiroConfig' of type [com.bootdo.system.config.ShiroConfig$$EnhancerBySpringCGLIB$$119aedb8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 02:03:58 -Bean 'userRealm' of type [com.bootdo.system.shiro.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 02:03:58 -No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/D:/Opensoure/svn_repository/net/sf/ehcache/ehcache-core/2.5.3/ehcache-core-2.5.3.jar!/ehcache-failsafe.xml
+2018-05-21 02:03:59 -Bean 'ehCacheManager' of type [org.apache.shiro.cache.ehcache.EhCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 02:03:59 -Cache with name 'com.bootdo.system.shiro.UserRealm.authorizationCache' does not yet exist.  Creating now.
+2018-05-21 02:03:59 -Added EhCache named [com.bootdo.system.shiro.UserRealm.authorizationCache]
+2018-05-21 02:03:59 -Bean 'sessionDAO' of type [org.apache.shiro.session.mgt.eis.MemorySessionDAO] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 02:03:59 -Bean 'sessionManager' of type [org.apache.shiro.web.session.mgt.DefaultWebSessionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 02:03:59 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 02:03:59 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 02:03:59 -Bean 'spring.dubbo-com.alibaba.dubbo.spring.boot.DubboProperties' of type [com.alibaba.dubbo.spring.boot.DubboProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 02:03:59 -Bean 'com.alibaba.dubbo.spring.boot.DubboAutoConfiguration' of type [com.alibaba.dubbo.spring.boot.DubboAutoConfiguration$$EnhancerBySpringCGLIB$$8d170a49] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 02:03:59 -using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2018-05-21 02:03:59 -Bean 'dubboApplicationConfig' of type [com.alibaba.dubbo.config.ApplicationConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 02:03:59 -Bean 'dubboRegistryConfig' of type [com.alibaba.dubbo.config.RegistryConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 02:03:59 -Bean 'com.alibaba.dubbo.spring.boot.DubboConsumerAutoConfiguration' of type [com.alibaba.dubbo.spring.boot.DubboConsumerAutoConfiguration$$EnhancerBySpringCGLIB$$595c5833] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 02:04:00 -Tomcat initialized with port(s): 8088 (http)
+2018-05-21 02:04:00 -Starting service [Tomcat]
+2018-05-21 02:04:00 -Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-05-21 02:04:00 -Initializing Spring embedded WebApplicationContext
+2018-05-21 02:04:00 -Root WebApplicationContext: initialization completed in 6704 ms
+2018-05-21 02:04:01 -Mapping filter: 'metricsFilter' to: [/*]
+2018-05-21 02:04:01 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-21 02:04:01 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-21 02:04:01 -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-21 02:04:01 -Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-21 02:04:01 -Mapping filter: 'springSecurityFilterChain' to: [/*]
+2018-05-21 02:04:01 -Filter xssFilter was not registered (disabled)
+2018-05-21 02:04:01 -Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2018-05-21 02:04:01 -Mapping filter: 'webStatFilter' to urls: [/*]
+2018-05-21 02:04:01 -Mapping filter: 'shiroFilterFactoryBean' to: [/*]
+2018-05-21 02:04:01 -Mapping filter: 'applicationContextIdFilter' to: [/*]
+2018-05-21 02:04:01 -Mapping servlet: 'statViewServlet' to [/druid/*]
+2018-05-21 02:04:01 -Mapping servlet: 'dispatcherServlet' to [/]
+2018-05-21 02:04:02 -{dataSource-1} inited
+2018-05-21 02:04:02 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'logAspect': Unsatisfied dependency expressed through field 'logService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'logServiceImpl': Unsatisfied dependency expressed through field 'logMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'logDao' defined in file [D:\Opensoure\eclipse\code\ts-manage\ts-manage-consumer\target\classes\com\bootdo\common\dao\LogDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Opensoure\eclipse\code\ts-manage\ts-manage-consumer\target\classes\mybatis\system\DeptMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.bootdo.system.dao.DeptDao.get
+2018-05-21 02:04:02 -{dataSource-1} closed
+2018-05-21 02:04:02 -Stopping service [Tomcat]
+2018-05-21 02:04:03 -
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-05-21 02:04:03 -Application startup failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'logAspect': Unsatisfied dependency expressed through field 'logService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'logServiceImpl': Unsatisfied dependency expressed through field 'logMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'logDao' defined in file [D:\Opensoure\eclipse\code\ts-manage\ts-manage-consumer\target\classes\com\bootdo\common\dao\LogDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Opensoure\eclipse\code\ts-manage\ts-manage-consumer\target\classes\mybatis\system\DeptMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.bootdo.system.dao.DeptDao.get
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.bootdo.BootdoApplication.main(BootdoApplication.java:21)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'logServiceImpl': Unsatisfied dependency expressed through field 'logMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'logDao' defined in file [D:\Opensoure\eclipse\code\ts-manage\ts-manage-consumer\target\classes\com\bootdo\common\dao\LogDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Opensoure\eclipse\code\ts-manage\ts-manage-consumer\target\classes\mybatis\system\DeptMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.bootdo.system.dao.DeptDao.get
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'logDao' defined in file [D:\Opensoure\eclipse\code\ts-manage\ts-manage-consumer\target\classes\com\bootdo\common\dao\LogDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Opensoure\eclipse\code\ts-manage\ts-manage-consumer\target\classes\mybatis\system\DeptMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.bootdo.system.dao.DeptDao.get
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1357)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1249)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	... 32 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Opensoure\eclipse\code\ts-manage\ts-manage-consumer\target\classes\mybatis\system\DeptMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.bootdo.system.dao.DeptDao.get
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1342)
+	... 43 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Opensoure\eclipse\code\ts-manage\ts-manage-consumer\target\classes\mybatis\system\DeptMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.bootdo.system.dao.DeptDao.get
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:189)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+	... 55 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Opensoure\eclipse\code\ts-manage\ts-manage-consumer\target\classes\mybatis\system\DeptMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.bootdo.system.dao.DeptDao.get
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:522)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:381)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:546)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:130)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$52161041.CGLIB$sqlSessionFactory$0(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$52161041$$FastClassBySpringCGLIB$$fc2e7f8c.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$52161041.sqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
+	... 56 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.bootdo.system.dao.DeptDao.get
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:520)
+	... 69 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.bootdo.system.dao.DeptDao.get
+	at org.apache.ibatis.session.Configuration$StrictMap.put(Configuration.java:859)
+	at org.apache.ibatis.session.Configuration$StrictMap.put(Configuration.java:831)
+	at org.apache.ibatis.session.Configuration.addMappedStatement(Configuration.java:655)
+	at org.apache.ibatis.builder.MapperBuilderAssistant.addMappedStatement(MapperBuilderAssistant.java:302)
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:109)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:135)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:128)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:118)
+	... 71 common frames omitted
+2018-05-21 02:04:03 - [DUBBO] Run shutdown hook now., dubbo version: 2.6.0, current host: 127.0.0.1
+2018-05-21 02:04:03 - [DUBBO] Close all registries [], dubbo version: 2.6.0, current host: 127.0.0.1
+2018-05-21 06:53:58 -Starting BootdoApplication on Z258H7FRH70R1WT with PID 11384 (D:\Opensoure\eclipse\code\ts-manage\ts-manage-consumer\target\classes started by Administrator in D:\Opensoure\eclipse\code\ts-manage\ts-manage-consumer)
+2018-05-21 06:53:58 -Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2018-05-21 06:53:58 -The following profiles are active: dev
+2018-05-21 06:53:58 -HV000001: Hibernate Validator 5.3.6.Final
+2018-05-21 06:53:58 -Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@31fa1761: startup date [Mon May 21 06:53:58 CST 2018]; root of context hierarchy
+2018-05-21 06:53:59 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.bootdo.BootdoApplication]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'deptServiceImpl' for bean class [com.bootdo.system.service.impl.DeptServiceImpl] conflicts with existing, non-compatible bean definition of same name and class [com.bootdo.advertiser.service.impl.DeptServiceImpl]
+2018-05-21 06:53:59 -Application startup failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.bootdo.BootdoApplication]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'deptServiceImpl' for bean class [com.bootdo.system.service.impl.DeptServiceImpl] conflicts with existing, non-compatible bean definition of same name and class [com.bootdo.advertiser.service.impl.DeptServiceImpl]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:181)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:308)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:228)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:272)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:92)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:687)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:525)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.bootdo.BootdoApplication.main(BootdoApplication.java:21)
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'deptServiceImpl' for bean class [com.bootdo.system.service.impl.DeptServiceImpl] conflicts with existing, non-compatible bean definition of same name and class [com.bootdo.advertiser.service.impl.DeptServiceImpl]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:345)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:283)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:135)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:287)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:245)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:198)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:167)
+	... 13 common frames omitted
+2018-05-21 07:03:32 -Starting BootdoApplication on Z258H7FRH70R1WT with PID 10676 (D:\Opensoure\eclipse\code\ts-manage\ts-manage-consumer\target\classes started by Administrator in D:\Opensoure\eclipse\code\ts-manage\ts-manage-consumer)
+2018-05-21 07:03:32 -Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2018-05-21 07:03:32 -The following profiles are active: dev
+2018-05-21 07:03:32 -HV000001: Hibernate Validator 5.3.6.Final
+2018-05-21 07:03:32 -Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@31fa1761: startup date [Mon May 21 07:03:32 CST 2018]; root of context hierarchy
+2018-05-21 07:03:36 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-05-21 07:03:38 -Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$f995cbba] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 07:03:38 -Bean 'org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration' of type [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration$$EnhancerBySpringCGLIB$$ee09905e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 07:03:39 -Bean 'spring.cache-org.springframework.boot.autoconfigure.cache.CacheProperties' of type [org.springframework.boot.autoconfigure.cache.CacheProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 07:03:39 -Bean 'cacheManagerCustomizers' of type [org.springframework.boot.autoconfigure.cache.CacheManagerCustomizers] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 07:03:39 -Bean 'org.springframework.boot.autoconfigure.cache.EhCacheCacheConfiguration' of type [org.springframework.boot.autoconfigure.cache.EhCacheCacheConfiguration$$EnhancerBySpringCGLIB$$88a85d5c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 07:03:39 -Bean 'ehCacheCacheManager' of type [net.sf.ehcache.CacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 07:03:39 -Bean 'cacheManager' of type [org.springframework.cache.ehcache.EhCacheCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 07:03:39 -Bean 'cacheAutoConfigurationValidator' of type [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration$CacheManagerValidator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 07:03:39 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b083959c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 07:03:39 -Bean 'shiroConfig' of type [com.bootdo.system.config.ShiroConfig$$EnhancerBySpringCGLIB$$a2dcc443] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 07:03:40 -Bean 'userRealm' of type [com.bootdo.system.shiro.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 07:03:40 -No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/D:/Opensoure/svn_repository/net/sf/ehcache/ehcache-core/2.5.3/ehcache-core-2.5.3.jar!/ehcache-failsafe.xml
+2018-05-21 07:03:40 -Bean 'ehCacheManager' of type [org.apache.shiro.cache.ehcache.EhCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 07:03:40 -Cache with name 'com.bootdo.system.shiro.UserRealm.authorizationCache' does not yet exist.  Creating now.
+2018-05-21 07:03:40 -Added EhCache named [com.bootdo.system.shiro.UserRealm.authorizationCache]
+2018-05-21 07:03:40 -Bean 'sessionDAO' of type [org.apache.shiro.session.mgt.eis.MemorySessionDAO] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 07:03:40 -Bean 'sessionManager' of type [org.apache.shiro.web.session.mgt.DefaultWebSessionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 07:03:40 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 07:03:40 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 07:03:40 -Bean 'spring.dubbo-com.alibaba.dubbo.spring.boot.DubboProperties' of type [com.alibaba.dubbo.spring.boot.DubboProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 07:03:40 -Bean 'com.alibaba.dubbo.spring.boot.DubboAutoConfiguration' of type [com.alibaba.dubbo.spring.boot.DubboAutoConfiguration$$EnhancerBySpringCGLIB$$1e58e0d4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 07:03:41 -using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2018-05-21 07:03:41 -Bean 'dubboApplicationConfig' of type [com.alibaba.dubbo.config.ApplicationConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 07:03:41 -Bean 'dubboRegistryConfig' of type [com.alibaba.dubbo.config.RegistryConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 07:03:41 -Bean 'com.alibaba.dubbo.spring.boot.DubboConsumerAutoConfiguration' of type [com.alibaba.dubbo.spring.boot.DubboConsumerAutoConfiguration$$EnhancerBySpringCGLIB$$ea9e2ebe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 07:03:42 -Tomcat initialized with port(s): 8088 (http)
+2018-05-21 07:03:42 -Starting service [Tomcat]
+2018-05-21 07:03:42 -Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-05-21 07:03:42 -Initializing Spring embedded WebApplicationContext
+2018-05-21 07:03:42 -Root WebApplicationContext: initialization completed in 9820 ms
+2018-05-21 07:03:43 -Mapping filter: 'metricsFilter' to: [/*]
+2018-05-21 07:03:43 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-21 07:03:43 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-21 07:03:43 -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-21 07:03:43 -Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-21 07:03:43 -Mapping filter: 'springSecurityFilterChain' to: [/*]
+2018-05-21 07:03:43 -Filter xssFilter was not registered (disabled)
+2018-05-21 07:03:43 -Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2018-05-21 07:03:43 -Mapping filter: 'webStatFilter' to urls: [/*]
+2018-05-21 07:03:43 -Mapping filter: 'shiroFilterFactoryBean' to: [/*]
+2018-05-21 07:03:43 -Mapping filter: 'applicationContextIdFilter' to: [/*]
+2018-05-21 07:03:43 -Mapping servlet: 'statViewServlet' to [/druid/*]
+2018-05-21 07:03:43 -Mapping servlet: 'dispatcherServlet' to [/]
+2018-05-21 07:03:44 -{dataSource-1} inited
+2018-05-21 07:03:45 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'advertiserController': Unsatisfied dependency expressed through field 'advertiserService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'advertiserServiceImpl': Unsatisfied dependency expressed through field 'advertiserMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'advertiserDao' defined in file [D:\Opensoure\eclipse\code\ts-manage\ts-manage-consumer\target\classes\com\bootdo\advertiser\dao\AdvertiserDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Opensoure\eclipse\code\ts-manage\ts-manage-consumer\target\classes\mybatis\system\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.bootdo.system.dao.UserDao.get
+2018-05-21 07:03:45 -{dataSource-1} closed
+2018-05-21 07:03:46 -Stopping service [Tomcat]
+2018-05-21 07:03:46 -
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-05-21 07:03:46 -Application startup failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'advertiserController': Unsatisfied dependency expressed through field 'advertiserService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'advertiserServiceImpl': Unsatisfied dependency expressed through field 'advertiserMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'advertiserDao' defined in file [D:\Opensoure\eclipse\code\ts-manage\ts-manage-consumer\target\classes\com\bootdo\advertiser\dao\AdvertiserDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Opensoure\eclipse\code\ts-manage\ts-manage-consumer\target\classes\mybatis\system\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.bootdo.system.dao.UserDao.get
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.bootdo.BootdoApplication.main(BootdoApplication.java:21)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'advertiserServiceImpl': Unsatisfied dependency expressed through field 'advertiserMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'advertiserDao' defined in file [D:\Opensoure\eclipse\code\ts-manage\ts-manage-consumer\target\classes\com\bootdo\advertiser\dao\AdvertiserDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Opensoure\eclipse\code\ts-manage\ts-manage-consumer\target\classes\mybatis\system\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.bootdo.system.dao.UserDao.get
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'advertiserDao' defined in file [D:\Opensoure\eclipse\code\ts-manage\ts-manage-consumer\target\classes\com\bootdo\advertiser\dao\AdvertiserDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Opensoure\eclipse\code\ts-manage\ts-manage-consumer\target\classes\mybatis\system\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.bootdo.system.dao.UserDao.get
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1357)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1249)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	... 32 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Opensoure\eclipse\code\ts-manage\ts-manage-consumer\target\classes\mybatis\system\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.bootdo.system.dao.UserDao.get
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1342)
+	... 43 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Opensoure\eclipse\code\ts-manage\ts-manage-consumer\target\classes\mybatis\system\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.bootdo.system.dao.UserDao.get
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:189)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+	... 55 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Opensoure\eclipse\code\ts-manage\ts-manage-consumer\target\classes\mybatis\system\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.bootdo.system.dao.UserDao.get
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:522)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:381)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:546)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:130)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$e357e6cc.CGLIB$sqlSessionFactory$0(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$e357e6cc$$FastClassBySpringCGLIB$$b2465e4f.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$e357e6cc.sqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
+	... 56 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.bootdo.system.dao.UserDao.get
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:520)
+	... 69 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.bootdo.system.dao.UserDao.get
+	at org.apache.ibatis.session.Configuration$StrictMap.put(Configuration.java:859)
+	at org.apache.ibatis.session.Configuration$StrictMap.put(Configuration.java:831)
+	at org.apache.ibatis.session.Configuration.addMappedStatement(Configuration.java:655)
+	at org.apache.ibatis.builder.MapperBuilderAssistant.addMappedStatement(MapperBuilderAssistant.java:302)
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:109)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:135)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:128)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:118)
+	... 71 common frames omitted
+2018-05-21 07:03:46 - [DUBBO] Run shutdown hook now., dubbo version: 2.6.0, current host: 127.0.0.1
+2018-05-21 07:03:46 - [DUBBO] Close all registries [], dubbo version: 2.6.0, current host: 127.0.0.1
+2018-05-21 07:05:34 -Starting BootdoApplication on Z258H7FRH70R1WT with PID 4824 (D:\Opensoure\eclipse\code\ts-manage\ts-manage-consumer\target\classes started by Administrator in D:\Opensoure\eclipse\code\ts-manage\ts-manage-consumer)
+2018-05-21 07:05:34 -Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2018-05-21 07:05:34 -The following profiles are active: dev
+2018-05-21 07:05:34 -HV000001: Hibernate Validator 5.3.6.Final
+2018-05-21 07:05:34 -Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@31fa1761: startup date [Mon May 21 07:05:34 CST 2018]; root of context hierarchy
+2018-05-21 07:05:37 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-05-21 07:05:38 -Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$8d4f9917] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 07:05:39 -Bean 'org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration' of type [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration$$EnhancerBySpringCGLIB$$81c35dbb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 07:05:39 -Bean 'spring.cache-org.springframework.boot.autoconfigure.cache.CacheProperties' of type [org.springframework.boot.autoconfigure.cache.CacheProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 07:05:39 -Bean 'cacheManagerCustomizers' of type [org.springframework.boot.autoconfigure.cache.CacheManagerCustomizers] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 07:05:39 -Bean 'org.springframework.boot.autoconfigure.cache.EhCacheCacheConfiguration' of type [org.springframework.boot.autoconfigure.cache.EhCacheCacheConfiguration$$EnhancerBySpringCGLIB$$1c622ab9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 07:05:39 -Bean 'ehCacheCacheManager' of type [net.sf.ehcache.CacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 07:05:39 -Bean 'cacheManager' of type [org.springframework.cache.ehcache.EhCacheCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 07:05:39 -Bean 'cacheAutoConfigurationValidator' of type [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration$CacheManagerValidator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 07:05:39 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$443d62f9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 07:05:39 -Bean 'shiroConfig' of type [com.bootdo.system.config.ShiroConfig$$EnhancerBySpringCGLIB$$369691a0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 07:05:40 -Bean 'userRealm' of type [com.bootdo.system.shiro.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 07:05:40 -No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/D:/Opensoure/svn_repository/net/sf/ehcache/ehcache-core/2.5.3/ehcache-core-2.5.3.jar!/ehcache-failsafe.xml
+2018-05-21 07:05:40 -Bean 'ehCacheManager' of type [org.apache.shiro.cache.ehcache.EhCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 07:05:40 -Cache with name 'com.bootdo.system.shiro.UserRealm.authorizationCache' does not yet exist.  Creating now.
+2018-05-21 07:05:40 -Added EhCache named [com.bootdo.system.shiro.UserRealm.authorizationCache]
+2018-05-21 07:05:40 -Bean 'sessionDAO' of type [org.apache.shiro.session.mgt.eis.MemorySessionDAO] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 07:05:40 -Bean 'sessionManager' of type [org.apache.shiro.web.session.mgt.DefaultWebSessionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 07:05:40 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 07:05:40 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 07:05:40 -Bean 'spring.dubbo-com.alibaba.dubbo.spring.boot.DubboProperties' of type [com.alibaba.dubbo.spring.boot.DubboProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 07:05:40 -Bean 'com.alibaba.dubbo.spring.boot.DubboAutoConfiguration' of type [com.alibaba.dubbo.spring.boot.DubboAutoConfiguration$$EnhancerBySpringCGLIB$$b212ae31] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 07:05:40 -using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2018-05-21 07:05:40 -Bean 'dubboApplicationConfig' of type [com.alibaba.dubbo.config.ApplicationConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 07:05:40 -Bean 'dubboRegistryConfig' of type [com.alibaba.dubbo.config.RegistryConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 07:05:40 -Bean 'com.alibaba.dubbo.spring.boot.DubboConsumerAutoConfiguration' of type [com.alibaba.dubbo.spring.boot.DubboConsumerAutoConfiguration$$EnhancerBySpringCGLIB$$7e57fc1b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 07:05:41 -Tomcat initialized with port(s): 8088 (http)
+2018-05-21 07:05:41 -Starting service [Tomcat]
+2018-05-21 07:05:41 -Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-05-21 07:05:42 -Initializing Spring embedded WebApplicationContext
+2018-05-21 07:05:42 -Root WebApplicationContext: initialization completed in 7280 ms
+2018-05-21 07:05:42 -Mapping filter: 'metricsFilter' to: [/*]
+2018-05-21 07:05:42 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-21 07:05:42 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-21 07:05:42 -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-21 07:05:42 -Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-21 07:05:42 -Mapping filter: 'springSecurityFilterChain' to: [/*]
+2018-05-21 07:05:42 -Filter xssFilter was not registered (disabled)
+2018-05-21 07:05:42 -Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2018-05-21 07:05:42 -Mapping filter: 'webStatFilter' to urls: [/*]
+2018-05-21 07:05:42 -Mapping filter: 'shiroFilterFactoryBean' to: [/*]
+2018-05-21 07:05:42 -Mapping filter: 'applicationContextIdFilter' to: [/*]
+2018-05-21 07:05:42 -Mapping servlet: 'statViewServlet' to [/druid/*]
+2018-05-21 07:05:43 -Mapping servlet: 'dispatcherServlet' to [/]
+2018-05-21 07:05:43 -{dataSource-1} inited
+2018-05-21 07:05:44 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'advertiserController': Unsatisfied dependency expressed through field 'advertiserService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'advertiserServiceImpl': Unsatisfied dependency expressed through field 'advertiserMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'advertiserDao' defined in file [D:\Opensoure\eclipse\code\ts-manage\ts-manage-consumer\target\classes\com\bootdo\advertiser\dao\AdvertiserDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Opensoure\eclipse\code\ts-manage\ts-manage-consumer\target\classes\mybatis\system\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.bootdo.system.dao.UserDao.get
+2018-05-21 07:05:44 -{dataSource-1} closed
+2018-05-21 07:05:44 -Stopping service [Tomcat]
+2018-05-21 07:05:44 -
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-05-21 07:05:44 -Application startup failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'advertiserController': Unsatisfied dependency expressed through field 'advertiserService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'advertiserServiceImpl': Unsatisfied dependency expressed through field 'advertiserMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'advertiserDao' defined in file [D:\Opensoure\eclipse\code\ts-manage\ts-manage-consumer\target\classes\com\bootdo\advertiser\dao\AdvertiserDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Opensoure\eclipse\code\ts-manage\ts-manage-consumer\target\classes\mybatis\system\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.bootdo.system.dao.UserDao.get
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.bootdo.BootdoApplication.main(BootdoApplication.java:21)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'advertiserServiceImpl': Unsatisfied dependency expressed through field 'advertiserMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'advertiserDao' defined in file [D:\Opensoure\eclipse\code\ts-manage\ts-manage-consumer\target\classes\com\bootdo\advertiser\dao\AdvertiserDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Opensoure\eclipse\code\ts-manage\ts-manage-consumer\target\classes\mybatis\system\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.bootdo.system.dao.UserDao.get
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'advertiserDao' defined in file [D:\Opensoure\eclipse\code\ts-manage\ts-manage-consumer\target\classes\com\bootdo\advertiser\dao\AdvertiserDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Opensoure\eclipse\code\ts-manage\ts-manage-consumer\target\classes\mybatis\system\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.bootdo.system.dao.UserDao.get
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1357)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1249)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	... 32 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Opensoure\eclipse\code\ts-manage\ts-manage-consumer\target\classes\mybatis\system\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.bootdo.system.dao.UserDao.get
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1342)
+	... 43 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Opensoure\eclipse\code\ts-manage\ts-manage-consumer\target\classes\mybatis\system\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.bootdo.system.dao.UserDao.get
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:189)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+	... 55 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\Opensoure\eclipse\code\ts-manage\ts-manage-consumer\target\classes\mybatis\system\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.bootdo.system.dao.UserDao.get
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:522)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:381)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:546)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:130)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$7711b429.CGLIB$sqlSessionFactory$0(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$7711b429$$FastClassBySpringCGLIB$$d43fe107.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$7711b429.sqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
+	... 56 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.bootdo.system.dao.UserDao.get
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:520)
+	... 69 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.bootdo.system.dao.UserDao.get
+	at org.apache.ibatis.session.Configuration$StrictMap.put(Configuration.java:859)
+	at org.apache.ibatis.session.Configuration$StrictMap.put(Configuration.java:831)
+	at org.apache.ibatis.session.Configuration.addMappedStatement(Configuration.java:655)
+	at org.apache.ibatis.builder.MapperBuilderAssistant.addMappedStatement(MapperBuilderAssistant.java:302)
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:109)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:135)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:128)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:118)
+	... 71 common frames omitted
+2018-05-21 07:05:44 - [DUBBO] Run shutdown hook now., dubbo version: 2.6.0, current host: 127.0.0.1
+2018-05-21 07:05:44 - [DUBBO] Close all registries [], dubbo version: 2.6.0, current host: 127.0.0.1
