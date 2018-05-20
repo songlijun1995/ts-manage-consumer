@@ -2,7 +2,7 @@
 Navicat MySQL Data Transfer
 
 Source Server         : 本地数据库
-Source Server Version : 50554
+Source Server Version : 50554 
 Source Host           : localhost:3306
 Source Database       : bootdo
 
