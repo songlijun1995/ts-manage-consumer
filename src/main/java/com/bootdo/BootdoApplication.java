@@ -19,7 +19,7 @@ import com.alibaba.dubbo.spring.boot.annotation.EnableDubboConfiguration;
 public class BootdoApplication {
     public static void main(String[] args) {
         SpringApplication.run(BootdoApplication.class, args);
-        System.out.println("ヾ(◍°∇°◍)ﾉﾞ    bootdo启动成功      ヾ(◍°∇°◍)ﾉﾞ\n" +
+        System.out.println("ヾ(◍°∇°◍)ﾉﾞ    bootdo启动成功啦：     ヾ(◍°∇°◍)ﾉﾞ\n" +
                 " ______                    _   ______            \n" +
                 "|_   _ \\                  / |_|_   _ `.          \n" +
                 "  | |_) |   .--.    .--. `| |-' | | `. \\  .--.   \n" +
