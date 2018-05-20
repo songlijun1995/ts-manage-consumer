@@ -13,6 +13,10 @@ File Encoding         : 65001
 Date: 2018-05-20 22:39:40
 */
 
+create database bootdo;
+
+use bootdo;
+
 SET FOREIGN_KEY_CHECKS=0;
 
 -- ----------------------------
