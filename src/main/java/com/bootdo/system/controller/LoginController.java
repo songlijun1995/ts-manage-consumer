@@ -28,8 +28,7 @@ import java.util.List;
 /**
  * @描述: 登录功能的控制层
  * @作者: 宋利军
- * @Date: 2018年5月20日下午10:26:25 
- * @Copyright: 2018 http://blog.aizhuoyue.net.
+ * @Date: 2018年5月20日下午10:26:25
  */
 @Controller
 public class LoginController extends BaseController {
