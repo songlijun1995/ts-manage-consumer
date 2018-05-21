@@ -43,7 +43,7 @@ public interface AdvertiserService {
 	 */
 	int updatePersonal(Advertiser advertiser);
 
-	/**
+	/** 
 	 * 更新个人图片
 	 * @param file 图片
 	 * @param avatar_data 裁剪信息
